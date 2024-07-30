@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: min(1000px,90%);
+    height: min(500px,90%);
+    background-color: #FEF5DB;
+    border-radius: 105px 25px 25px 25px;
+    display: flex;
+    padding-block: 45px;
+}
+.student{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 500px;
+} 
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    margin-block: 8px;
+}
+.feature .question{
+    margin-right: 30px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+.feature .questions{
+    margin-right: 30px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.feature .opportunity{
+    margin-right: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.right-content{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
